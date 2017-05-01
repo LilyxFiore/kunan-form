@@ -1,0 +1,79 @@
+*{
+  font-family: Roboto, sans-serif;
+}
+
+.black{
+  color: black;
+}
+
+.orange{
+  color: rgb(254, 109, 22);
+}
+
+.grey-ligth{
+  color:  #b5b6b7;
+}
+
+
+.grey-medium{
+  color: #707274;
+}
+
+.grey-dark{
+  color: #3E3F40;
+}
+
+.content{
+  margin: auto;
+  width: 70%;
+}
+
+.nota{
+  line-height: 32px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+h1{
+  font-size: 35px;
+  font-weight: lighter;
+  margin: 20px 0 0 0;
+}
+
+h2{
+  font-size: 29px;
+  font-weight: lighter;
+  margin: 20px 0 10px 0;
+}
+
+label{
+  display: block;
+  font-size: 17px;
+  font-weight: lighter;
+  margin: 24px 0 10px 0;
+}
+
+input{
+  width: 75%;
+  border: 0;
+  border-bottom: 1px solid #707274;
+  color: #707274;
+  font-size: 17px;
+  padding: 5px 0;
+}
+
+input:focus, select:focus, select{
+  color: #707274;
+  outline: none;
+  font-size: 17px;
+}
+
+.left{
+  width: 50%;
+  float: left;
+}
+
+.right{
+  width: 50%;
+  float: right;
+}
