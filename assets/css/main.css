@@ -25,7 +25,8 @@
 
 .content{
   margin: auto;
-  width: 70%;
+  width: 75%;
+  height: auto;
 }
 
 .nota{
@@ -46,28 +47,9 @@ h2{
   margin: 20px 0 10px 0;
 }
 
-label{
-  display: block;
-  font-size: 17px;
-  font-weight: lighter;
-  margin: 24px 0 10px 0;
+p{
+  line-height: 32px;
 }
-
-input{
-  width: 75%;
-  border: 0;
-  border-bottom: 1px solid #707274;
-  color: #707274;
-  font-size: 17px;
-  padding: 5px 0;
-}
-
-input:focus, select:focus, select{
-  color: #707274;
-  outline: none;
-  font-size: 17px;
-}
-
 .left{
   width: 50%;
   float: left;
@@ -76,4 +58,80 @@ input:focus, select:focus, select{
 .right{
   width: 50%;
   float: right;
+}
+
+.representante{
+  width: 100%;
+  height: 370px;
+}
+
+.center{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+label{
+  display: block;
+  font-size: 17px;
+  font-weight: lighter;
+  margin: 15px 0 10px 0;
+}
+
+input[type="text"], input[type="file"]{
+  width: 75%;
+  border: 0;
+  border-bottom: 1px solid #707274;
+  color: #707274;
+  font-size: 17px;
+  padding: 5px 0 5px 0;
+  margin-bottom: 14px;
+}
+
+input:focus, select:focus, select{
+  color: #707274;
+  outline: none;
+  font-size: 17px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  margin: 10px 10px 0 0;
+}
+
+.profesion{
+  height: 200px;
+}
+
+.input-title{
+  display: block;
+}
+
+.cursive{
+  font-style: italic;
+}
+
+.entidad{
+  height: 1240px;
+}
+
+.registro{
+  height: 250px;
+}
+
+.informacion{
+  height: 5000px;
+}
+
+.bt_orange{
+  background-color: rgb(254, 109, 22);
+  color: white;
+  border: 0;
+  padding: 10px;
+  font-size: 21px;
+  margin-left: 50%;
+  border-radius: 4px;
+}
+
+.p-right{
+  text-align: right;
 }
