@@ -96,6 +96,14 @@ input:focus, select:focus, select{
 
 input[type="radio"], input[type="checkbox"]{
   margin: 10px 10px 0 0;
+  -webkit-appearance: none;
+  border: 1px solid #b5b6b7;
+  padding: 4px;
+  background-color: white;
+}
+
+input[type="radio"]:checked, input[type="checkbox"]:checked{
+  background-color: #707274;
 }
 
 .profesion{
